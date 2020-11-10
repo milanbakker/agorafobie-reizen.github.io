@@ -1,0 +1,194 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top left, #5EBEA2, #B6BDA9);
+    font-family: Verdana, Arial, sans-serif;
+    z-index: 8;
+    width: 100%;
+    margin: 0;
+}
+#logo {
+    margin-top: 15px;
+    padding-top: 12%;
+    background-image: url("logo huis animatie stickman wind 2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    z-index: -3;
+    position: relative;
+}
+#logotext{
+    color: #57A7A9;
+    -webkit-text-stroke: 2px black;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 570px;
+    z-index: -2;
+}
+.tree {
+    -webkit-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    transform: translateY(35px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://s3-us-west-2.amazonaws.com/made-with-code/tree.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h3 {
+    margin: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+    position: relative;
+    width: 100%;
+}
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    width: 20%;
+    height: 70px;
+    background: #6DBE5E;
+}
+a {
+    text-decoration: none;
+}
+nav ul li a {
+    line-height: 90px;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    color: white;
+}
+nav ul li a span{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    transition: 1s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+nav ul li a:focus,
+nav ul li a:hover span {
+    color: black;
+    transform: translateY(-25px);
+}
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #6DBE5E;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Verdana, Arial, sans-serif;
+    z-index: 8;
+}
+legend {
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
+    z-index: 8;
+}
+
+.switch {
+    position: absolute;
+    display: inline-block;
+    height: 34px;
+    width: 4%;
+    margin-top: -1.9%;
+    margin-left: 35%;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.nlvlag {
+    position: absolute;
+    height: 50%;
+    width: 2%;
+    margin-top: -1.6%;
+    margin-left: 32%;
+    outline: none;
+}
+
+.amflag {
+    position: absolute;
+    height: 50%;
+    width: 2%;
+    margin-top: -1.6%;
+    margin-left: 40%;
+    outline: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    height: 6%;
+    width: 100%;
+    padding-bottom: 1%;
+    background: #6DBE5E;
+}

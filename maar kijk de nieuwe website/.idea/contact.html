@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacten</title>
+    <meta http-equiv="Content-Type"
+          content="text/html"
+          charset=UTF-8>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contactgegevens</title>
+    <meta name="robots"  content="all">
+    <meta name="language"  content="Dutch">
+    <meta name="author"  content="Emir">
+    <title>Contactgegevens</title>
+</head>
+<body>
+
+<style>
+    body {
+        background-image: url('unnamed.jpg');
+        position: center;
+        width: 99%;
+        height: 100%;
+        background-color: #fff;
+        text-align: center;
+        font-family: Verdana, Arial, sans-serif;
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        overflow: inherit;
+    }
+</style>
+
+<nav>
+    <ul>
+        <li><a  href="agorafobie%20reizen.html">home</a></li>
+        <li><a  href="reizen.html">reizen</a></li>
+        <li><a  href="nieuwe%20website%20jongen.html">formulier</a></li>
+        <li><a  href="contact.html">contacten</a></li>
+        <li><a  href="meer-info.html">info</a></li>
+    </ul>
+</nav>
+
+
+
+<div id="logo">
+</div>
+<main>
+    <P id="contact">
+        <span>Heeft u vragen?</span> <br>
+        <em><span>Contactacteer ons!</span></em>
+        <br>
+    </P>
+    <form name="Contactgegevens"
+          action="mailto: postmaster@radiogaga.com"
+          method="post">
+        <fieldset>
+            <footer>
+                <p>Copyright &copy; 2020 <i>Ontworpen door: SD20-1</i>
+                    Alle Rechten voorbehouden</p>
+            </footer>  <legend>Contactgegevens</legend>
+            <input required type="text" id="naam" name="naam" placeholder="Naam"><br>
+            <input required type="email" id="email" name="email" placeholder="E-Mail"><br>
+            <input required type="text" id="mobiel" name="mobiel" placeholder="Mobiel"><br>
+            <br>
+            <br>
+            <br>
+            <input type="text" id="feedback" name="feedback" placeholder="Tik je vraag of commentaar in...">
+            <br>
+            <input type="submit" id="verzend" name="verzend" value="Verzend">
+
+        </fieldset>
+    </form>
+</main>
+<footer>
+</footer>
+
+
+
+
+<script>
+    const text = document.querySelectorAll('a');
+    text.forEach(a =>{
+        a.innerHTML = a.textContent.split('').map((text, wave) =>
+            `<span style="transition-delay: ${wave * 50}ms">${text}</span>`).join('');
+    });
+</script>
+</body>
+</html>
+

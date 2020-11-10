@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Nieuwe website jongen</title>
+
+    <link rel="stylesheet" href="nieuw%20website%20jongen.css">
+
+</head>
+
+<body>
+
+<style>
+
+    body {
+        background-image: url('downloaden.jpg');
+        width: 99%;
+        overflow: inherit;
+        height: 150% ;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+    }
+
+</style>
+
+<nav>
+    <ul>
+        <li><a  href="agorafobie%20reizen%20engels.html">home</a></li>
+        <li><a  href="reizeneng.html">trips</a></li>
+        <li><a  href="agorafobie%20reizen%20engels.html">form</a></li>
+        <li><a  href="contact.html">contact</a></li>
+        <li><a  href="meer-info.html">info</a></li>
+    </ul>
+</nav>
+
+<script>
+    const text = document.querySelectorAll('a');
+    text.forEach(a =>{
+        a.innerHTML = a.textContent.split('').map((text, wave) =>
+            `<span style="transition-delay: ${wave * 50}ms">${text}</span>`).join('');
+    });
+</script>
+
+<main>
+
+    <form>
+
+
+        <fieldset>
+
+            <legend>Registration form</legend>
+
+            <input required type="text" id="voornaam" name="voornaam" placeholder="First Name"><br>
+
+            <input required type="text" id="achternaam" name="achternaam" placeholder="Last Name"><br>
+
+            <input required type="email" id="email" name="email" placeholder="E-mail"><br>
+
+            <input required type="text" id="mobiel" name="mobiel" placeholder="Phonenumber"><br>
+
+            <input required type="text" placeholder="Village" name="woonplaats" id="woonplaats" list="steden">
+            <datalist id="steden">
+
+                <option value="Amsterdam">
+
+                <option value="Rotterdam">
+
+                <option value="Den Haag">
+
+                <option value="Utrecht">
+
+                <option value="Eindhoven">
+
+                <option value="Groningen">
+
+                <option value="Tilburg">
+
+                <option value="Almere">
+
+                <option value="Breda">
+
+                <option value="Nijmegen">
+
+                <option value="Apeldoorn">
+
+                <option value="Haarlem">
+
+                <option value="Arnhem">
+
+                <option value="Enschede">
+
+                <option value="Amersfoort">
+
+                <option value="Haarlemmermeer">
+
+                <option value="Zaanstad">
+
+                <option value="'s-Hertogenbosch">
+
+                <option value="Zwolle">
+
+                <option value="Zoetermeer">
+
+                <option value="Leiden">
+
+                <option value="Leeuwarden">
+
+                <option value="Dordrecht">
+
+                <option value="Maastricht">
+
+                <option value="Ede">
+
+                <option value="Alphen aan den Rijn">
+
+                <option value="Westland">
+
+                <option value="Alkmaar">
+
+                <option value="Emmen">
+
+                <option value="Delft">
+
+                <option value="Venlo">
+
+                <option value="Deventer">
+
+            </datalist> <br>
+
+            <input required type="text" placeholder="Trip" name="reis" id="reis" list="reizen">
+            <datalist id="reizen">
+
+                <option value="Duitse Bunkers">
+
+                <option value="Ruimtereis ISS">
+
+                <option value="Thuis Documentaire">
+
+            </datalist><br>
+
+            particularities?:
+            <br>
+
+            <textarea cols="35" rows="4" placeholder="Heeft u nog bijzonderheden?">
+            </textarea><br><br>
+            <div class="extend">
+                <input type="checkbox" name="nieuwsbrief" class="checkbox" id="nieuwsbrief" value="nieuwsbrief">
+
+                If you would like an extra discount on special trips, click this box, <br> You will receive an email about our specialties!
+
+                <br>
+                <br>
+                <input type="submit" id="verzend" name="verzend" value="Send">
+
+            </div>
+        </fieldset>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>Copyright &copy; 2020 <i>designed by: SD20-1</i>
+        all rights reserved.</p>
+
+    <label class="switch">
+        <input type="checkbox" checked onclick="window.location.href='nieuwe website jongen.html'">
+        <span class="slider round"></span>
+    </label>
+
+    <img class="nlvlag" src="images/nl%20vlag.gif">
+    <img class="amflag" src="images/FsOy.gif">
+
+</footer>
+
+</body>
+
+</html>

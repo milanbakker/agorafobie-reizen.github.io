@@ -1,0 +1,175 @@
+/* Stylen voor RadioGaGa */
+
+h3 {
+    margin: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+    width: 100%;
+
+}
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+
+}
+nav ul li {
+    float: left;
+    width: 20%;
+    height: 70px;
+    background: #6DBE5E;
+}
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    line-height: 90px;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+nav ul li a span{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    transition: 1s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+nav ul li a:focus,
+nav ul li a:hover span {
+    color: black;
+    transform: translateY(-25px);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+#center {
+    width: 105px;
+    height: 105px;
+    background: orange;
+    position: relative;
+    top: 50%;
+    left: 37%;
+    display: block;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
+}
+
+#vorige {
+    z-index: 1;
+    margin-left: 10px;
+    position: fixed;
+    top: 45%;
+    left: 4%;
+}
+#volgende {
+    z-index: 1;
+    margin-right: 10px;
+    position: fixed;
+    top: 45%;
+    right: 4%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    background: linear-gradient(to right, purple,white,purple,white);
+}
+
+footer p {
+    margin: 0;
+    color: black;
+}
+form {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+fieldset{
+    border: solid 2px #009D22;
+    width: 70%;
+    margin: auto;
+    border-radius: 2%;
+    background-image: linear-gradient(to bottom, purple,black,purple,white);
+}
+input,
+select,
+textarea {
+    border: solid 1px rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+    box-shadow: 6px 6px 10px #2eef1e;
+}
+select{
+    width: 35%;
+}
+input[type=date] {
+    width: 25%;
+}
+input[type=checkbox],
+input[type=radio] {
+    width: 4%;
+}
+input[type=submit] {
+    background-color: #bada55;
+    width: 43%;
+    opacity: 0.4;
+}
+input[type=submit] :hover {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    line-height: 1.6em;
+    color: white;
+}
+#contact span {
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #2eef1e;
+    text-transform: uppercase;
+}
+input[type=submit]:hover {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+html {
+    width: 100%;
+
+}
+

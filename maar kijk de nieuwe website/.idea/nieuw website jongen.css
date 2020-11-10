@@ -1,0 +1,125 @@
+h3 {
+    margin: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    width: 20%;
+    height: 70px;
+    background: #6DBE5E;
+}
+a {
+    text-decoration: none;
+}
+nav ul li a {
+    line-height: 90px;
+    color: white;
+    font-size: 1.7rem;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+nav ul li a span{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 500;
+    transition: 1s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+nav ul li a:focus,
+nav ul li a:hover span {
+    color: black;
+    transform: translateY(-25px);
+}
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #6DBE5E;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+input,
+select,
+textarea {
+    border: solid 6px rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px 80px 5px 80px;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 3px;
+    position: relative;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+
+form {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+select {
+    width: 35%;
+    text-align: center;
+}
+
+style {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    height: 2%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #6DBE5E;
+}
+
+footer img {
+    margin: 0;
+    width: 4%;
+}
+
+footer p {
+    margin: 0;
+    color: black;
+}
+
+.extend {
+    padding-bottom: 70px;
+}
+
+

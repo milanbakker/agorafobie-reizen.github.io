@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html;
+          charset=UTF-8">
+    <link rel="stylesheet" href="ISS.css">
+    <title>ISS</title>
+    <style>
+        div.text { text-emphasis-position: left;}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div>
+<nav style="
+    z-index: 8;
+    position: absolute;">
+    <ul>
+        <li><a  href="agorafobie%20reizen.html">home</a></li>
+        <li><a  href="reizen.html">reizen</a></li>
+        <li><a  href="nieuwe%20website%20jongen.html">formulier</a></li>
+        <li><a  href="contact.html">contacten</a></li>
+        <li><a  href="contact.html">info</a></li>
+    </ul>
+</nav>
+</div>
+<div>
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides w3-animate-fading" src="plaat1G.jpg"
+         style="top: 330px;
+         left: 55%;
+         z-index: 8;
+         width: 450px;
+         height: 300px;">
+    <img class="mySlides w3-animate-fading" src="plaatje2G.jpg"
+         style="top: 330px;
+         left: 55%;
+         z-index: 8;
+         width: 450px;
+         height: 300px;">
+    <img class="mySlides w3-animate-fading" src="plaatje3G.png"
+         style="top: 330px;
+         left: 55%;
+         z-index: 8;
+         width: 450px;
+         height: 300px;">
+    <img class="mySlides w3-animate-fading" src="plaatje4G.webp"
+         style="top: 330px;
+         left: 55%;
+         z-index: 8;
+         width: 450px;
+         height: 300px;">
+</div>
+</div>
+
+<img width="350" class="img" src="plaatje2G.jpg" alt="ISS">
+<div class="text" style="
+     color: #3cd070">
+    <h1> Naar de ruimte ?</h1> </div>
+<div class="info" style="
+     color: #3cd070">
+        Heeft u ooit de universum willen zien met uw eigen ogen?
+        <br>
+        <br>
+        Dan kunt u uw droom laten uitkomen bij ISS.
+
+        U gaat op eigen kosten all
+        <br>
+        <br>
+        inclusief 4 weken naar de ruimte. U gaat elke week andere gerechten eten van
+        <br>
+        <br>
+        andere landen. Landen zijn als volgt:
+        <br>
+        <br>
+        China, Amerika, Rusland en Litouwen.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        U gaat hier leven bij de gewoontes van
+        <br>
+        <br>
+        andere culturen. In de 4 weken dat u
+        <br>
+        <br>
+        hier bent krijgt u met 4 culturen temaken.
+        <br>
+        <br>
+        Elke week krijgt u een andere cultuur. Wij gaan elke week een stukje cultuur
+        <br>
+        <br>
+        proeven uit een andere keuken.
+        <br>
+        <br>
+        Ook gaan wij hun kledingstijl dragen.
+        <br>
+        <br>
+        Voor de rest gaan we genieten van het uitzicht, er word daar ook verteld over
+        <br>
+        <br>
+        de ruimte
+        <bR>
+        <br>
+        en u leert meteen de belangrijkste dingen van ISS.
+        <br>
+        <br>
+        U gaat slapen in cabines en daar staan bedden voor u klaar, de bedden zijn in
+        <br>
+        <br>
+        en uitklapbaar.
+        Hopelijk zien we u snel.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</div>
+
+<footer>
+    <p>Copyright &copy; 2020 <i>Ontworpen door: SD20-1</i>
+        Alle rechten voorbehouden.</p>
+
+    <label class="switch">
+        <input type="checkbox" onclick="window.location.href='ISSeng.html'">
+        <span class="slider round"></span>
+    </label>
+
+    <img class="nlvlag" src="images/nl%20vlag.gif">
+    <img class="amflag" src="images/FsOy.gif">
+
+</footer>
+
+<script>
+    const text = document.querySelectorAll('a');
+    text.forEach(a =>{
+        a.innerHTML = a.textContent.split('').map((text, wave) =>
+            `<span style="transition-delay: ${wave * 95}ms">${text}</span>`).join('');
+    });
+
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+        let i;
+        let x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 4000);
+    }
+</script>
+
+</body>
+</html>
